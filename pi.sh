@@ -7,4 +7,6 @@
 #sleep 10
 #dhclient wlan0
 
-wpa_passphrase muju 29143500 | sudo tee /etc/wpa_supplicant.conf
+#wpa_passphrase muju 29143500 | sudo tee /etc/wpa_supplicant.conf
+
+wpa_passphrase muju 29143500 | sudo tee /etc/wpa_supplicant/wpa_supplicant.conf
